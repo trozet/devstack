@@ -20,7 +20,8 @@ function neutron_plugin_create_nova_conf {
 }
 
 function neutron_plugin_install_agent_packages {
-    _neutron_ovs_base_install_agent_packages
+    #_neutron_ovs_base_install_agent_packages
+    return
 }
 
 function neutron_plugin_configure_debug_command {
